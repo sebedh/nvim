@@ -1,0 +1,29 @@
+local opt = vim.opt
+opt.autoindent = true -- Enable autoindentation
+opt.breakindent = true
+opt.colorcolumn = "80" -- Highlight column 80
+opt.cursorline = true -- Highlight cursorline
+opt.expandtab = true -- Expand tab to spaces
+-- opt.list = true -- Show whitespace character
+-- opt.listchars = "tab:  ,multispace:|   ,eol:󰌑"
+opt.mouse = 'a' -- Auto mouse
+opt.number = true -- Show numberline
+opt.numberwidth = 2 -- Width of the line number column
+opt.relativenumber = true -- Show relative line numbers
+opt.scrolloff = 8 -- Keep 8 lines above and below cursor
+opt.shiftwidth = 4
+opt.showmode = false
+opt.signcolumn = 'yes:1'
+opt.smartindent = true
+opt.softtabstop = 4
+opt.swapfile = false
+opt.tabstop = 4
+opt.termguicolors = true
+opt.undofile = true
+opt.undodir = os.getenv('HOME') .. '/.vim/undodir'
+opt.updatetime = 50
+opt.wrap = false
+
+vim.cmd.filetype("plugin indent on")
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0

@@ -14,6 +14,11 @@
       "rev": "d5491dd",
       "src": "https://github.com/olimorris/codecompanion.nvim"
     },
+    "copilot.lua": {
+      "rev": "3abf634",
+      "src": "https://github.com/zbirenbaum/copilot.lua",
+      "version": "'master'"
+    },
     "copilot.vim": {
       "rev": "da369d9",
       "src": "https://github.com/github/copilot.vim",
@@ -42,6 +47,11 @@
       "rev": "94cae46",
       "src": "https://github.com/nvim-mini/mini.nvim",
       "version": "'stable'"
+    },
+    "nvim": {
+      "rev": "cb56659",
+      "src": "https://github.com/catppuccin/nvim",
+      "version": "'v1.11.0'"
     },
     "oil.nvim": {
       "rev": "975a77c",

@@ -4,5 +4,6 @@ vim.lsp.enable({
     "lua_lsp",
     "pyright",
     "zls",
+    "yamlls",
     "terraformls",
 })

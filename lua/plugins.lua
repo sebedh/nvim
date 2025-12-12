@@ -6,7 +6,7 @@ vim.pack.add({
     { src = 'https://github.com/stevearc/oil.nvim', version = 'v2.15.0' },
     { src = 'https://github.com/mason-org/mason.nvim', version = 'v2.1.0' },
     { src = "https://github.com/ibhagwan/fzf-lua" },
-    { src = "https://github.com/Saghen/blink.cmp", version = 'v1.7.0' },
+    { src = "https://github.com/Saghen/blink.cmp", version = 'v1.8.0' },
     { src = "https://github.com/zbirenbaum/copilot.lua", version = 'master' },
     { src = "https://github.com/olimorris/codecompanion.nvim" },
     { src = "https://github.com/catppuccin/nvim", version = 'v1.11.0' },
@@ -59,9 +59,7 @@ require('blink.cmp').setup({
     },
     sources = { default = { 'lsp', 'path' } },
 })
-require('codecompanion').setup({
 
-})
 require('snacks').setup({
     animations = { enabled = false },
     indent = { enabled = true },

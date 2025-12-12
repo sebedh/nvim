@@ -13,3 +13,5 @@ keymap("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer.sh<CR>")
 -- ~/.config/nvim-new/lua/keymaps.lua
 keymap("n", "<leader>ff", '<cmd>FzfLua files<CR>')
 keymap("n", "<leader>fg", '<cmd>FzfLua live_grep<CR>')
+keymap("n", "<leader>fb", '<cmd>FzfLua buffers<CR>')
+keymap("n", "<leader>fk", '<cmd>FzfLua keymaps<CR>')
